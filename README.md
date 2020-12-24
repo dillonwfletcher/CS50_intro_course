@@ -13,18 +13,18 @@ or you can look at the specifications for each individual asssignment using the 
   * [hello](/C/pset1/hello)
   * [mario](/C/pset1/mario/)
   * [credit](/C/pset1/credit)
-- [Problem Set 2: Crypto](/C/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/' target='_blank'> Assignments 2</a> 
+- [Problem Set 2: Arrays](/C/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/' target='_blank'> Assignments 2</a> 
   * [caesar](/C/pset2/caesar)
   * [substitution](/C/pset2/substitution)
   * [readability](/C/pset2/readability)
-- [Problem Set3: Elections](/C/pset3) - <a href='https://cs50.harvard.edu/x/2020/psets/3/' target='_blank'> Assignments 3</a> 
+- [Problem Set3: Algorithms](/C/pset3) - <a href='https://cs50.harvard.edu/x/2020/psets/3/' target='_blank'> Assignments 3</a> 
   * [plurality](/C/pset3/plurality)
   * [runoff](/C/pset3/runoff)
   * [tideman](/C/pset3/tideman)
-- [Problem Set 4: Forensics](/C/pset4) - <a href='https://cs50.harvard.edu/x/2020/psets/4/' target='_blank'> Assignments 4</a> 
+- [Problem Set 4: Memory](/C/pset4) - <a href='https://cs50.harvard.edu/x/2020/psets/4/' target='_blank'> Assignments 4</a> 
   * [filter](/C/pset4/filter)
   * [recover](/C/pset4/recover)
-- [Problem Set 5: Speller](/C/pset5/speller) - <a href='https://cs50.harvard.edu/x/2020/psets/5/speller/' target='_blank'> Speller assignment</a>
+- [Problem Set 5: Data Structures](/C/pset5/speller) - <a href='https://cs50.harvard.edu/x/2020/psets/5/speller/' target='_blank'> Speller assignment</a>
   * [dictionary.c](/C/pset5/speller/dictionary.c)
 - [Problem Set 6: Python](/Python/pset6/) - <a href='https://cs50.harvard.edu/x/2020/psets/6/' target='_blank'> Assignments 6</a>
   * [hello](/Python/pset6/hello)
