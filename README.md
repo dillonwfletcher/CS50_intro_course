@@ -11,10 +11,7 @@ or you can look at the specifications for each individual asssignment using the 
   * <a href='https://scratch.mit.edu/projects/379257758/'>Dino Hunt</a>
 - [Problem Set 1: C](/C/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/' target='_blank'> Assignments 1</a>
   * [hello](/C/pset1/hello)
-  * mario
-    + [less](/C/pset1/mario/less)
-    + [more](/C/pset1/mario/more)
-  * [cash](/C/pset1/cash)
+  * [mario](/C/pset1/mario/)
   * [credit](/C/pset1/credit)
 - [Problem Set 2: Crypto](/C/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/' target='_blank'> Assignments 2</a> 
   * [caesar](/C/pset2/caesar)
