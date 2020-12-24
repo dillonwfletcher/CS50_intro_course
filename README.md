@@ -22,18 +22,13 @@ or you can look at the specifications for each individual asssignment using the 
   * [runoff](/C/pset3/runoff)
   * [tideman](/C/pset3/tideman)
 - [Problem Set 4: Forensics](/C/pset4) - <a href='https://cs50.harvard.edu/x/2020/psets/4/' target='_blank'> Assignments 4</a> 
-  * filter
-    + [less](/C/pset4/filter)
-    + [more](/C/pset4/border-detection)
+  * [filter](/C/pset4/filter)
   * [recover](/C/pset4/recover)
 - [Problem Set 5: Speller](/C/pset5/speller) - <a href='https://cs50.harvard.edu/x/2020/psets/5/speller/' target='_blank'> Speller assignment</a>
   * [dictionary.c](/C/pset5/speller/dictionary.c)
 - [Problem Set 6: Python](/Python/pset6/) - <a href='https://cs50.harvard.edu/x/2020/psets/6/' target='_blank'> Assignments 6</a>
   * [hello](/Python/pset6/hello)
-  * mario
-    + [less](/Python/pset6/mario/less)
-    + [more](/Python/pset6/mario/more)
-  * [cash](/Python/pset6/cash)
+  * [mario](/Python/pset6/mario/more)
   * [credit](/Python/pset6/credit)
   * [readability](/Python/pset6/readability)
   * [dna](/Python/pset6/dna)
