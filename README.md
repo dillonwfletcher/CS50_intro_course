@@ -7,7 +7,7 @@ or you can look at the specifications for each individual asssignment using the 
 
 ## Table Of Contents
 
-- [Problem Set 0: Scratch] - <a href='https://cs50.harvard.edu/x/2020/psets/0/' target='_blank'> Assignments 0</a>
+- Problem Set 0: Scratch - <a href='https://cs50.harvard.edu/x/2020/psets/0/' target='_blank'> Assignments 0</a>
   * <a href='https://scratch.mit.edu/projects/379257758/'>Dino Hunt</a>
 - [Problem Set 1: C](/C/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/' target='_blank'> Assignments 1</a>
   * [hello](/C/pset1/hello)
