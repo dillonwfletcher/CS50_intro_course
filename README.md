@@ -41,9 +41,3 @@ or you can look at the specifications for each individual asssignment using the 
 - [Problem Set 7: SQL](/Python/pset7/) - <a href='https://cs50.harvard.edu/x/2020/psets/7/' target='_blank'> Assignments 7</a>
   * [movies](/Python/pset7/movies)
   * [houses](/Python/pset7/houses/houses)
-- [Problem Set 8: Web](/Python/finance) - <a href='https://cs50.harvard.edu/x/2020/tracks/web/' target='_blank'> Web Tracks</a>
-  * [finance](/Python/finance)
-- [Final Project: Lispy](https://github.com/Federico-abss/Lispy)
-   * An interpreted, functional programming language based on Lisp and written in C. <br>
-    Follow [the instructions](https://github.com/Federico-abss/Lispy#using-cs50-ide-step-by-step) to try it in your ide!
-
