@@ -4,6 +4,8 @@ Harvard's CS50: Introduction to Computer Science Problem Sets and Final Projects
 This repository contains my solutions to Harvard University's 2020 CS50 problem sets. You can find the materials for the course <a href="https://cs50.harvard.edu/x/2020/" target="_blank">here</a>
 or you can look at the specifications for each individual asssignment using the table of contents below. Every problem set is this repository passed 100% of tests.
 
+### DISCLAIMER:
+If you are currently taking the CS50 course, do not just copy the code mindlessly without trying to solve the problems yourself. It defeats the entire purpose and is a violation of the [**Academic Honesty**](https://docs.cs50.net/2016/fall/syllabus/cs50.html#academic-honesty) policy of the course.
 
 ## Table Of Contents
 
