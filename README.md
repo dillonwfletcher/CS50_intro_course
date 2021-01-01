@@ -40,3 +40,6 @@ or you can look at the specifications for each individual asssignment using the 
   * [finance](/Web%20Track/finance)
 - [Final Project: TRACKme](/dillonwfletcher/TRACKme)
   * A web application that allows users to track where they have been.
+  
+## Final Certificate
+![Final Certificate](CS50x.png)
