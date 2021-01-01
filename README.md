@@ -36,5 +36,5 @@ or you can look at the specifications for each individual asssignment using the 
   * [movies](/Python/pset7/movies)
   * [houses](/Python/pset7/houses/houses)
 - [Web Track: HTML, CSS, JavaScript, Flask, SQL](/Python/pset7/) - <a href='https://cs50.harvard.edu/x/2020/tracks/web/' target='_blank'> Web Assignments</a>
-  * [homepage](/Web_Track/homepage)
-  * [finance](/Web_Track/finance)
+  * [homepage](/Web%20Track/homepage)
+  * [finance](/Web%20Track/finance)
