@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+      <div class="container-sm">
+        <a class="navbar-brand" href="index.html">DF</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="basic.html">Basic</a>
+            <a class="nav-link" href="adv.html">Advanced</a>
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+          </div>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-light" onclick="dark()">Change Mode</button>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      function expand(){
+        let navbar = document.querySelector("#navbarNavAltMarkup");
+        navbar.classList.toggle("navbar-expand-sm");
+      }
+    </script>
+
+
+    <!-- Start of page content -->
+    <body>
+      <div class="container-sm">
+        <h1>About Me</h1>
+        <h2>Dillon received an undergraduate degree in Economics from the University of Maryland.
+            He is currently using online resources to study cybersecurity and data science to help him
+            prepare for graduate degree programs.</h2>
+      </div>
+
+
+      <!-- Hobbies -->
+      <h1>Hobbies</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2>Climbing</h2>
+            <img src="climbing.jpg" class="d-block w-100" alt="climbing">
+          </div>
+          <div class="col-sm">
+            <h2>Chess</h2>
+            <img src="chess.jpg" class="d-block w-100" alt="chess">
+            <h2>Jiu-Jitsu</h2>
+            <img src="bjj.jpg" class="d-block w-100" alt="jiu-jitsu">
+          </div>
+        </div>
+      </div>
+
+    </body>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <nav class="navbar-dark bg-dark">
+          <div class="container-sm footer-text">
+            &copy Copyright Dillon Fletcher
+          </div>
+        </nav>
+
+    </footer>
+
+    <script src="dark.js"></script>
+
+</html>

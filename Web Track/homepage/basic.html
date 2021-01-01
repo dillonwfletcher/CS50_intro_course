@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+      <div class="container-sm">
+        <a class="navbar-brand" href="index.html">DF</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="basic" href="basic.html">Basic</a>
+            <a class="nav-link" href="adv.html">Advanced</a>
+            <a class="nav-link" href="about.html">About</a>
+          </div>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-light" onclick="dark()">Change Mode</button>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Start of page content -->
+    <body>
+      <div class="container-sm">
+        <h1>Basic JavaScript Example</h1>
+      </div>
+
+      <form class="my-form container-sm" onsubmit="show(); return false;">
+        <h2>What is your name?</h2>
+        <input id="name" type="text">
+        <input type="submit" text="Submit">
+      </form>
+
+      <div>
+        <h2 style="text-align:center; margin:1em;" id="response"></h2>
+      </div>
+
+      <script>
+        function show(){
+          let y = document.getElementById("response");
+          let name = document.getElementById("name").value;
+          y.innerHTML = "Hello, " + name + "!";
+        }
+      </script>
+
+    </body>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <nav class="navbar-dark bg-dark fixed-bottom">
+          <div class="container-sm footer-text">
+            &copy Copyright Dillon Fletcher
+          </div>
+        </nav>
+
+    </footer>
+
+    <script src="dark.js"></script>
+
+</html>

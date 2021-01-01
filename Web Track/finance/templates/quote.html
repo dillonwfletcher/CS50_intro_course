@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Get Quote
+{% endblock %}
+
+{% block main %}
+    <form action="/quote" method="post">
+        <div class="form-group">
+            <input id="ticker" autocomplete="off" autofocus class="form-control" name="ticker" placeholder="Ticker" type="text">
+        </div>
+        <button id="get_quote" class="btn btn-primary" type="submit" disabled="true">Get Quote</button>
+    </form>
+
+
+    <!-- ensure that there is text in ticker field before submitting form -->
+    <script>
+        document.querySelector("#ticker").onkeyup = function(){
+            if (document.querySelector("#ticker").value === ""){
+                document.querySelector("#get_quote").disabled = true;
+            } else{
+                document.querySelector("#get_quote").disabled = false;
+            }
+        }
+    </script>
+
+{% endblock %}

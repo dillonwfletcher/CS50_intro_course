@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Symbol</th>
+          <th scope="col">Company</th>
+          <th scope="col">Shares</th>
+          <th scope="col">Current Price</th>
+          <th scope="col">Current Value</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for company in companies %}
+        <tr>
+          <th scope="row">{{ company['symbol'] }}</th>
+          <td>{{ owned[company['symbol']]['name'] }}</td>
+          <td>{{ company['total_shares'] }}</td>
+          <td>{{ owned[company['symbol']]['price'] }}</td>
+          <td>{{ owned[company['symbol']]['value'] }}</td>
+        </tr>
+      {% endfor %}
+        <tr>
+            <th scope="row">CASH</th>
+            <td colspan="3"></td>
+            <td>{{ cash }}</td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+            <th>{{ value }}</th>
+        </tr>
+      </tbody>
+    </table>
+{% endblock %}
