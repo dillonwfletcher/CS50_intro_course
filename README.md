@@ -40,8 +40,5 @@ If you are currently taking the CS50 course, do not just copy the code mindlessl
 - [Web Track: HTML, CSS, JavaScript, Flask, SQL](/Web%20Track/) - <a href='https://cs50.harvard.edu/x/2020/tracks/web/' target='_blank'> Web Assignments</a>
   * [homepage](/Web%20Track/homepage)
   * [finance](/Web%20Track/finance)
-- [Final Project: TRACKme](https://github.com/dillonwfletcher/TRACKme)
+- [Final Project: TRACKme](https://github.com/garthstone/TRACKme)
   * A web application that allows users to track where they have been.
-  
-## Final Certificate
-![Final Certificate](CS50x.png)
